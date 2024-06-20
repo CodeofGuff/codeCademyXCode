@@ -55,7 +55,7 @@ struct ContentView: View {
 
                 Spacer()
             }
-            .navigationTitle("Tip Tracker")
+            .navigationTitle("Tip Tracker GPT")
         }
     }
 
