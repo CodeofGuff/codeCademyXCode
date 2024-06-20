@@ -1,0 +1,50 @@
+
+
+GENERAL NOTES FOR XCODE/IOSDEV
+https://developer.apple.com/documentation/coredata
+
+
+
+Wireframing 
+ - A wireframe is a collection of sketches and notes that depict a website as it would look on a browser, a tablet, or a mobile device. 
+ It shows the layout of the app’s elements, like navigation bars, buttons, content placement, and more—it’s like the blueprint to our app
+ - Revise the wireframe 24 hours after first iteration 
+ - Practice wireframing by drawing out screens and the different UIs you want to display. 
+
+Step 1 - Screens
+ - Self contained user interface devoted to a particular purpose in the app. 
+ - IE: amazon, shopping cart and past orders are on separate, screens. 
+ - Differentiate between screens
+ - Home Screen, Search Screen, Product Details, Cart Screen
+
+Step 2 - Flow
+ - Path that a user takes through software
+ - Predicts which screens a user will need when clicking something. 
+ - Account, Account details, Settings, FAQ, etc
+
+Step 3 - Wireframes
+ - Sketches of our apps’ screens in rough approximation to how they will appear in the final product. (iPhone, iPad, watch, etc) and appropriate ratios
+ - Lose in appearance, but precise in concepts and design. 
+ - A circle can represent a user’s avatar.
+ - A box acts as a placeholder for an image, icon, or button.
+ - A rectangle can stand for a text area featuring pertinent information.
+
+
+
+Creating a new Project in Xcode: - WHAT IS APP PLAYGROUND?
+* App: This is the option to choose for most standard apps. It creates a project with a single user interface or view.
+* Document App: Choose this option if you expect your app to create documents and share them with other apps. Examples of such apps are text editors and spreadsheets that incorporate a file browser.
+* Game: Choose this option if you want to create a gaming app that requires complex graphics.
+* Augmented Reality App: Select this option to create an augmented reality app.
+* Sticker Pack App: Choose this option to create a project for stickers to be used in the iMessage app. Note that sticker packs are extensions and not apps and can only be used with iMessage.
+* iMessage App: This option is used for projects that allow you to create extensions for iMessage or standalone iMessage apps.
+* You can also choose to create a framework or library that can be used by different apps. With Xcode, you can create a framework, a static library or a Metal library
+
+
+
+
+SwiftUI:
+Views: 
+ - The building blocks for the UI of the app.
+ - A Scene in an app is made up of Views such as: Text, Image, Label, Button
+ - A Protocol: Defines a blueprint of a set of requirements that are needed to accomplish a task
