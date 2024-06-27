@@ -159,7 +159,7 @@ Button(action: {
 
 
 Spacer:
- - A type of Viw that is designed to take up as much space as it can, horizontally or vertically, depending on the container it is put into. 
+ - A type of View that is designed to take up as much space as it can, horizontally or vertically, depending on the container it is put into. 
 
  HStack {
     Spacer()
